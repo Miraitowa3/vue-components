@@ -1,0 +1,3 @@
+packages:
+ - play #组件测试环境
+ - "packages/**"
