@@ -1,5 +1,7 @@
 <template>
-    <Nodes v-model="show" />
+    <div>
+        <Nodes v-model="show" />
+    </div>
 </template>
 
 <script lang="ts" setup>

@@ -1,0 +1,21 @@
+.tabs {
+    width: 100%;
+}
+.tabs-header-item {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    flex: 1;
+    text-align: center;
+    color: var(--el-text-color-regular);
+}
+
+.line {
+    height: 2px;
+    background: var(--el-color-primary);
+    transition: all 0.3s ease;
+}
+li.tabs-header-item.active {
+    color: var(--el-color-primary);
+}
